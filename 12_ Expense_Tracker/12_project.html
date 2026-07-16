@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Expense Tracker</title>
+<link rel="stylesheet" href="12_style.css">
+</head>
+<body>
+<div class="container">
+<h1>💰 Expense Tracker</h1>
+<input type="text" id="description" placeholder="Enter Description">
+<input type="number" id="amount" placeholder="Enter Amount">
+<select id="type">
+<option value="">Select Type</option>
+<option value="Income">Income</option>
+<option value="Expense">Expense</option>
+</select>
+<button id="addBtn">Add Transaction</button>
+<div class="summary">
+<div class="box">
+<h3>Balance</h3>
+<p id="balance">₹0</p>
+</div>
+<div class="box">
+<h3>Income</h3>
+<p id="income">₹0</p>
+</div>
+<div class="box">
+<h3>Expense</h3>
+<p id="expense">₹0</p>
+</div>
+</div>
+<h2>Transaction History</h2>
+<div id="transactionList"></div>
+</div>
+
+<script src="12_script.js"></script>
+</body>
+</html>

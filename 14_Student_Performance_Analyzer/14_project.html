@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Student Performance Analyzer</title>
+<link rel="stylesheet" href="14_style.css">
+</head>
+<body>
+<div class="container">
+<h1>🎓 Student Performance Analyzer</h1>
+<input type="number" id="minMarks" placeholder="Enter Minimum Marks">
+<select id="gradeFilter">
+<option value="All">All Grades</option>
+<option value="A">Grade A</option>
+<option value="B">Grade B</option>
+<option value="C">Grade C</option>
+<option value="D">Grade D</option>
+<option value="F">Grade F</option>
+</select>
+<h2>Class Average : <span id="average">0</span></h2>
+<h2>Highest Marks : <span id="highest">0</span></h2>
+<div id="students"></div>
+</div>
+<script src="14_script.js"></script>
+</body>
+</html>
